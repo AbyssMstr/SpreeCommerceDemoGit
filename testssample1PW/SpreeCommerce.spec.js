@@ -63,7 +63,7 @@ test('test', async ({ page }) => {
   await expect(page.getByText('Same as shipping address', { exact: true })).toBeVisible();
   await page.waitForTimeout(3000);
   await page.pause()
-  //This part I can't figure out
+  //This part I can't figure out all path unable to click any paymen method
   //await page.locator("button#affirm-tab div.p-TabIconContainer").click();
   //await page.locator('#affirm-tab').waitFor({ state: 'visible' });
   //await page.locator('#affirm-tab').dblclick();
